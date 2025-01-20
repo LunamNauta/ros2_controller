@@ -5,7 +5,8 @@ and another ROS2 node subscribing to that data.
 ### Build
 - Set $ROS2 to the location of ROS2's files. Usually /opt/ros/{DISTRIBUTATION}/setup.zsh
 - Set $CON_UTIL_DIR to the location the 'controller_utilities' library. Make sure it's built
-- Set $ROS2_INPUT_MSGS to the location of the 'ros2_input_msgs' project. Make sure it's built
+- Set $ROS2_INPUT_MSGS to the location of the 'ros2_input_msgs' project. Make sure it's built  
+  
 Note, all setup files are shell scripts. Change the extension to match what shell you're using. Default: zsh
 ```
 source $ROS2/setup.zsh
