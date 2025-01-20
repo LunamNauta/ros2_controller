@@ -2,6 +2,10 @@
 This is a basic project which shows a ROS2 node publishing controller data,
 and another ROS2 node subscribing to that data.
 
+### Dependencies
+- [controller_utilities](https://github.com/LunamNauta/controller_utilities)
+- [ros2_input_msgs](https://github.com/LunamNauta/ros2_input_msgs)
+
 ### Build
 - Set $ROS2 to the location of ROS2's files. Usually /opt/ros/{DISTRIBUTATION}/setup.zsh
 - Set $CON_UTIL_DIR to the location the 'controller_utilities' library. Make sure it's built
